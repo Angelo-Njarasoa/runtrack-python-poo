@@ -4,8 +4,7 @@ class Animal:
         self.prenom=prenom
         age=0
     def vieillir(self,):
-        age_vieillie= self.age +1
-        self.age= age_vieillie
+        self.age +=1
         return self.age
     def nommer(self):
         self.prenom=(input("nomer l'animal :"))
