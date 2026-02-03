@@ -5,7 +5,7 @@ class Point :
         # x=25
         # y=7
     def afficherLesPoints(self):
-        return f"coordonée ={self.x}{self.y}"
+        print (f"coordonées =({self.x},{self.y})")
     def afficherX(self):
         print ("le x = ",self.x)
     def afficherY(self):
@@ -19,5 +19,6 @@ class Point :
 p=Point(45,89)
 print(p.x)
 p.afficherX()
-p.changerX()
+# p.changerX()
 p.afficherX()
+p.afficherLesPoints()
