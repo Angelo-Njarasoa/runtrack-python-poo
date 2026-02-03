@@ -18,3 +18,6 @@ class Perssonage:
         return (self.x,self.y)
 pnj=Perssonage(0,0)
 print(pnj.postion())
+pnj.gauche()
+print(pnj.postion())
+
