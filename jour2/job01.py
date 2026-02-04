@@ -15,6 +15,8 @@ class Rectangle:
         largeur= int(input("largeur: "))
         self.__largeur=largeur
         return self.__largeur
+    
+
 rec=Rectangle(10,5)
 print(rec.get_largeur())
 print(rec.get_longueur())
