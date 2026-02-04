@@ -55,6 +55,7 @@ class Student:
         print(f"Nom= {self.__nom}\nPrenom= {self.__prenom}\nid= {self.__id}\nNiveau = {self.__student_Eval()}")
 
 
+
     
 std=Student("John","Doe",145,0,0)
 print(std.get_credit())
